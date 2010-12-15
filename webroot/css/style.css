@@ -1,0 +1,35 @@
+/**
+ * Base
+ */
+.round {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.square {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+.big {
+	font-size: 18px;
+	font-weight: bold;
+}
+.small {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+
+/**
+ * Inheritence
+ *
+ * uses 'extend' property
+ */
+#test-round {
+	extend: .round;
+}
+#test-big-square {
+	extend: .square, .big;
+	border: 1px solid #000;
+}
