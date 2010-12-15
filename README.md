@@ -6,7 +6,7 @@ Brings new features to your CSS files in Lithium framework. Currently works with
 
 Place li3\_css files under app/libraries/li3\_css directory, then add this line to app/config/bootstrap/libraries.php
 
-    Libraries::add('li3\_css');
+    Libraries::add('li3_css');
 
 
 ## Examples
